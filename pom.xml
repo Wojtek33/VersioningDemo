@@ -4,7 +4,7 @@
 
     <groupId>org.ea</groupId>
     <artifactId>VersioningDemo</artifactId>
-    <version>0.8-SNAPSHOT</version>
+    <version>0.8</version>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -28,7 +28,7 @@
         <connection>scm:git:http://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Wojtek33/VersioningDemo.git</connection>
         <developerConnection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</developerConnection>
         <url>http://github.com/Wojtek33/VersioningDemo.git</url>
-        <tag>@{project.version}</tag>
+        <tag>0.8</tag>
     </scm>
 
     <build>
