@@ -28,7 +28,7 @@
         <connection>scm:git:http://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Wojtek33/VersioningDemo.git</connection>
         <developerConnection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</developerConnection>
         <url>http://github.com/Wojtek33/VersioningDemo.git</url>
-        <tag>0.7</tag>
+        <tag>@{project.version}</tag>
     </scm>
 
     <build>
