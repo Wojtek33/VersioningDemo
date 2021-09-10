@@ -4,7 +4,7 @@
 
     <groupId>org.ea</groupId>
     <artifactId>VersioningDemo</artifactId>
-    <version>0.5</version>
+    <version>0.5-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -17,9 +17,12 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</connection>
-        <developerConnection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</developerConnection>
-        <url>https://github.com/kalaspuffar/VersioningDemo</url>
+        <!-- <connection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</connection> -->
+        <!-- <developerConnection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</developerConnection> -->
+        <!-- <url>https://github.com/kalaspuffar/VersioningDemo</url> -->
+        <connection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</connection>
+        <developerConnection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</developerConnection>
+        <url>https://github.com/Wojtek33/VersioningDemo.git</url>
         <tag>0.5</tag>
     </scm>
 
@@ -58,7 +61,7 @@
                     <preparationGoals>package</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
                     <tagNameFormat>@{project.version}</tagNameFormat>
-                    <remoteTagging>false</remoteTagging>
+                    <remoteTagging>true</remoteTagging>
                 </configuration>
             </plugin>
         </plugins>
