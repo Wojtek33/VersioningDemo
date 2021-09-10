@@ -5,7 +5,7 @@ package org.ea;
  */
 public class VersioningDemo {
     public static void main(String args[]) {
-        System.out.println("Hello explorers2.");
+        System.out.println("Hello explorers #8.");
         System.out.println();
         System.out.println("This program is running version "+
                 VersioningDemo.class.getPackage().getImplementationVersion());
