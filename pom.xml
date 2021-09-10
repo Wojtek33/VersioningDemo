@@ -20,9 +20,14 @@
         <!-- <connection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</connection> -->
         <!-- <developerConnection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</developerConnection> -->
         <!-- <url>https://github.com/kalaspuffar/VersioningDemo</url> -->
-        <connection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</connection>
+        <!-- <connection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</connection>
         <developerConnection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</developerConnection>
         <url>https://github.com/Wojtek33/VersioningDemo.git</url>
+        <tag>@{project.version}</tag> -->
+
+        <connection>scm:git:http://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Wojtek33/VersioningDemo.git</connection>
+        <developerConnection>scm:git:git@github.com:Wojtek33/VersioningDemo.git</developerConnection>
+        <url>http://github.com/Wojtek33/VersioningDemo.git</url>
         <tag>@{project.version}</tag>
     </scm>
 
